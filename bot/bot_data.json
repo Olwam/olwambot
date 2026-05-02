@@ -1,0 +1,513 @@
+{
+  "users": [
+    8222503432
+  ],
+  "approved_users": {},
+  "codes": {},
+  "signals": [
+    {
+      "chat_id": 8222503432,
+      "time": "2026-04-14T21:06:08.616136+00:00",
+      "pair": "USDJPY",
+      "timeframe": "M15",
+      "direction": "SELL",
+      "entry": 158.775,
+      "stop_loss": 159.12,
+      "take_profit": 158.085,
+      "rr": 2.0,
+      "confidence": 56,
+      "setup_quality": "okay",
+      "market_regime": "trending",
+      "news_risk": "low",
+      "htf_bias": "neutral",
+      "source": "manual",
+      "quality_score": 88,
+      "quality_issues": [],
+      "signal": {
+        "no_signal": false,
+        "pair": "USDJPY",
+        "timeframe": "M15",
+        "direction": "SELL",
+        "entry": 158.775,
+        "stop_loss": 159.12,
+        "take_profit": 158.085,
+        "rr": 2.0,
+        "confidence": 56,
+        "reason": "SELL bias from chart structure and live market data. Strong trend in play — continuation setup. Consistent downtrend with minor pullbacks.",
+        "score_explanation": "Score drivers: Chart quality (+6) | Bias alignment (+8) | Session quality (-5)",
+        "market_regime": "trending",
+        "setup_quality": "okay",
+        "news_risk": "low",
+        "htf_bias": "neutral",
+        "htf_timeframe": "",
+        "score_breakdown": {
+          "baseline": 45,
+          "chart_quality": 6,
+          "bias_alignment": 8,
+          "htf_alignment": 0,
+          "regime": 0,
+          "momentum": 0,
+          "ema_slope": 0,
+          "pullback": 0,
+          "rr": 2,
+          "session": -5,
+          "news": 0,
+          "quality_penalty": 0,
+          "liquidity_sweep": 0,
+          "fvg": 0,
+          "order_block": 0,
+          "breaker": 0,
+          "fib_confluence": 0,
+          "volatility": 0,
+          "total": 56
+        },
+        "quality_score": 88,
+        "quality_issues": []
+      }
+    },
+    {
+      "chat_id": 8222503432,
+      "time": "2026-04-15T21:40:12.972142+00:00",
+      "pair": "EURUSD",
+      "timeframe": "M30",
+      "direction": "",
+      "entry": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "rr": null,
+      "confidence": 0,
+      "setup_quality": "weak",
+      "market_regime": "mixed",
+      "news_risk": "low",
+      "htf_bias": "N/A",
+      "source": "manual",
+      "quality_score": 78,
+      "quality_issues": [],
+      "signal": {
+        "no_signal": true,
+        "pair": "EURUSD",
+        "timeframe": "M30",
+        "direction": "",
+        "entry": null,
+        "stop_loss": null,
+        "take_profit": null,
+        "rr": null,
+        "confidence": 0,
+        "reason": "NO TRADE — no valid setup on this chart. Wait for price to reach a key level.",
+        "score_explanation": "",
+        "market_regime": "mixed",
+        "setup_quality": "weak",
+        "news_risk": "low",
+        "htf_bias": "N/A",
+        "htf_timeframe": ""
+      }
+    }
+  ],
+  "stats": {},
+  "watchlists": {},
+  "balances": {},
+  "daily_usage": {
+    "8222503432": {
+      "date": "2026-04-15",
+      "count": 1
+    }
+  },
+  "alert_prefs": {},
+  "scanner_alerts": [],
+  "rejection_log": [
+    {
+      "pair": "EURUSD",
+      "category": "sniper_no_setup",
+      "reason": "NO TRADE — no valid setup on this chart. Wait for price to reach a key level.",
+      "source": "manual",
+      "timestamp": "2026-04-15T21:40:12.830109+00:00"
+    },
+    {
+      "pair": "EURUSD",
+      "category": "market_closed",
+      "reason": "EURUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.359102+00:00"
+    },
+    {
+      "pair": "EURUSD",
+      "category": "market_closed",
+      "reason": "EURUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.362066+00:00"
+    },
+    {
+      "pair": "EURUSD",
+      "category": "market_closed",
+      "reason": "EURUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.363337+00:00"
+    },
+    {
+      "pair": "GBPUSD",
+      "category": "market_closed",
+      "reason": "GBPUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.364572+00:00"
+    },
+    {
+      "pair": "GBPUSD",
+      "category": "market_closed",
+      "reason": "GBPUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.365747+00:00"
+    },
+    {
+      "pair": "GBPUSD",
+      "category": "market_closed",
+      "reason": "GBPUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.366902+00:00"
+    },
+    {
+      "pair": "USDJPY",
+      "category": "market_closed",
+      "reason": "USDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.368272+00:00"
+    },
+    {
+      "pair": "USDJPY",
+      "category": "market_closed",
+      "reason": "USDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.369673+00:00"
+    },
+    {
+      "pair": "USDJPY",
+      "category": "market_closed",
+      "reason": "USDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.371078+00:00"
+    },
+    {
+      "pair": "USDCHF",
+      "category": "market_closed",
+      "reason": "USDCHF market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.373125+00:00"
+    },
+    {
+      "pair": "USDCHF",
+      "category": "market_closed",
+      "reason": "USDCHF market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.374775+00:00"
+    },
+    {
+      "pair": "USDCHF",
+      "category": "market_closed",
+      "reason": "USDCHF market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.376195+00:00"
+    },
+    {
+      "pair": "USDCAD",
+      "category": "market_closed",
+      "reason": "USDCAD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.377490+00:00"
+    },
+    {
+      "pair": "USDCAD",
+      "category": "market_closed",
+      "reason": "USDCAD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.379118+00:00"
+    },
+    {
+      "pair": "USDCAD",
+      "category": "market_closed",
+      "reason": "USDCAD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.380705+00:00"
+    },
+    {
+      "pair": "AUDUSD",
+      "category": "market_closed",
+      "reason": "AUDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.382084+00:00"
+    },
+    {
+      "pair": "AUDUSD",
+      "category": "market_closed",
+      "reason": "AUDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.383320+00:00"
+    },
+    {
+      "pair": "AUDUSD",
+      "category": "market_closed",
+      "reason": "AUDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.384826+00:00"
+    },
+    {
+      "pair": "NZDUSD",
+      "category": "market_closed",
+      "reason": "NZDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.386274+00:00"
+    },
+    {
+      "pair": "NZDUSD",
+      "category": "market_closed",
+      "reason": "NZDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.387904+00:00"
+    },
+    {
+      "pair": "NZDUSD",
+      "category": "market_closed",
+      "reason": "NZDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.389698+00:00"
+    },
+    {
+      "pair": "EURJPY",
+      "category": "market_closed",
+      "reason": "EURJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.391634+00:00"
+    },
+    {
+      "pair": "EURJPY",
+      "category": "market_closed",
+      "reason": "EURJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.393328+00:00"
+    },
+    {
+      "pair": "EURJPY",
+      "category": "market_closed",
+      "reason": "EURJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.394804+00:00"
+    },
+    {
+      "pair": "GBPJPY",
+      "category": "market_closed",
+      "reason": "GBPJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.396526+00:00"
+    },
+    {
+      "pair": "GBPJPY",
+      "category": "market_closed",
+      "reason": "GBPJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.398153+00:00"
+    },
+    {
+      "pair": "GBPJPY",
+      "category": "market_closed",
+      "reason": "GBPJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.399832+00:00"
+    },
+    {
+      "pair": "EURGBP",
+      "category": "market_closed",
+      "reason": "EURGBP market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.401517+00:00"
+    },
+    {
+      "pair": "EURGBP",
+      "category": "market_closed",
+      "reason": "EURGBP market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.403088+00:00"
+    },
+    {
+      "pair": "EURGBP",
+      "category": "market_closed",
+      "reason": "EURGBP market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.404656+00:00"
+    },
+    {
+      "pair": "EURAUD",
+      "category": "market_closed",
+      "reason": "EURAUD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.406748+00:00"
+    },
+    {
+      "pair": "EURAUD",
+      "category": "market_closed",
+      "reason": "EURAUD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.409054+00:00"
+    },
+    {
+      "pair": "EURAUD",
+      "category": "market_closed",
+      "reason": "EURAUD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.410871+00:00"
+    },
+    {
+      "pair": "GBPAUD",
+      "category": "market_closed",
+      "reason": "GBPAUD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.412828+00:00"
+    },
+    {
+      "pair": "GBPAUD",
+      "category": "market_closed",
+      "reason": "GBPAUD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.414708+00:00"
+    },
+    {
+      "pair": "GBPAUD",
+      "category": "market_closed",
+      "reason": "GBPAUD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.416856+00:00"
+    },
+    {
+      "pair": "AUDJPY",
+      "category": "market_closed",
+      "reason": "AUDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.418811+00:00"
+    },
+    {
+      "pair": "AUDJPY",
+      "category": "market_closed",
+      "reason": "AUDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.420547+00:00"
+    },
+    {
+      "pair": "AUDJPY",
+      "category": "market_closed",
+      "reason": "AUDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.422360+00:00"
+    },
+    {
+      "pair": "XAUUSD",
+      "category": "market_closed",
+      "reason": "XAUUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.424298+00:00"
+    },
+    {
+      "pair": "XAUUSD",
+      "category": "market_closed",
+      "reason": "XAUUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.426146+00:00"
+    },
+    {
+      "pair": "XAUUSD",
+      "category": "market_closed",
+      "reason": "XAUUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:27.427996+00:00"
+    },
+    {
+      "pair": "EURUSD",
+      "category": "market_closed",
+      "reason": "EURUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.843256+00:00"
+    },
+    {
+      "pair": "EURUSD",
+      "category": "market_closed",
+      "reason": "EURUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.845366+00:00"
+    },
+    {
+      "pair": "GBPUSD",
+      "category": "market_closed",
+      "reason": "GBPUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.847144+00:00"
+    },
+    {
+      "pair": "GBPUSD",
+      "category": "market_closed",
+      "reason": "GBPUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.849103+00:00"
+    },
+    {
+      "pair": "USDJPY",
+      "category": "market_closed",
+      "reason": "USDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.851283+00:00"
+    },
+    {
+      "pair": "USDJPY",
+      "category": "market_closed",
+      "reason": "USDJPY market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.853248+00:00"
+    },
+    {
+      "pair": "USDCHF",
+      "category": "market_closed",
+      "reason": "USDCHF market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.854992+00:00"
+    },
+    {
+      "pair": "USDCHF",
+      "category": "market_closed",
+      "reason": "USDCHF market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.856844+00:00"
+    },
+    {
+      "pair": "USDCAD",
+      "category": "market_closed",
+      "reason": "USDCAD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.859569+00:00"
+    },
+    {
+      "pair": "USDCAD",
+      "category": "market_closed",
+      "reason": "USDCAD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.861792+00:00"
+    },
+    {
+      "pair": "AUDUSD",
+      "category": "market_closed",
+      "reason": "AUDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.864051+00:00"
+    },
+    {
+      "pair": "AUDUSD",
+      "category": "market_closed",
+      "reason": "AUDUSD market closed — Saturday (forex weekend schedule)",
+      "source": "scanner",
+      "timestamp": "2026-05-02T19:48:40.866338+00:00"
+    }
+  ],
+  "pre_alerts": [],
+  "scanner_enabled": true,
+  "copy_trading": {
+    "111": {}
+  },
+  "copy_trade_log": [],
+  "adaptive_brain": {},
+  "pending_watches": {},
+  "missed_setups": []
+}
